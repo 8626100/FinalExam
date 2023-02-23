@@ -144,7 +144,7 @@ body {
 .btn {
   display: inline-block;
   height: 50px;
-  padding: 0 80px; 
+  padding: 0 80px;
   border-radius: 68px;
   font-size: 16px;
   line-height: 50px;
@@ -165,7 +165,6 @@ body {
 
 .btn--red {
   background: #ef2a82;
-  
 }
 
 .btn--back-dark:hover {
@@ -235,7 +234,7 @@ body {
 }
 
 .features__column {
-  width: 320px;
+  width: 380px;
   text-align: center;
 }
 
@@ -312,14 +311,20 @@ body {
 }
 
 .price__top > p {
-  /* width: 650px; */
+  max-width: 650px;
   margin: 0 auto 15px;
 }
 
 .price__card {
   display: flex;
-  justify-content: space-evenly;
-  overflow-x: hidden;
+  justify-content: space-between;
+  overflow-x: scroll;
+  gap: 80px;
+}
+.price__card::-webkit-scrollbar {
+  display: none;
+  width: 1px;
+  background-color: #1f1f88;
 }
 
 .card {
@@ -328,7 +333,6 @@ body {
   box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
   border-radius: 30px;
   text-align: center;
- 
 }
 
 .card-white {
@@ -338,7 +342,6 @@ body {
 
 .card__content {
   padding: 50px 60px 70px 60px;
-  
 }
 
 .card__top {
