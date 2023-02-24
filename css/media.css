@@ -180,9 +180,11 @@
     /* align-content: center; */
     align-items: center;
     justify-content: space-around;
-    /* padding: 0; */
+    padding: 0; 
   }
-
+  .btn-border {
+    padding: 0px 80px;
+  }
   .main {
     padding-top: 0px;
     padding-bottom: 35px;
@@ -344,8 +346,8 @@
   
 .companies__column-inner {
     position: static;
-    width: 100%;
-    padding: 0;}
+    width: 99%;
+    padding: 0.5%;}
     
 
 }
