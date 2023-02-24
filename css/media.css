@@ -340,3 +340,12 @@
   }
 }
 
+@media (max-width:403px){
+  
+.companies__column-inner {
+    position: static;
+    width: 100%;
+    padding: 0;}
+    
+
+}
